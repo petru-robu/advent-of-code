@@ -3,5 +3,5 @@
 Solved: **?/25** problems
 
 ## 2024
-Solved : **11/25** problems
+Solved : **10/25** problems
 
