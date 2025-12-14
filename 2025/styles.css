@@ -1,0 +1,131 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 32px;
+  color: #38bdf8;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.day {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.day h2 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  color: #7dd3fc;
+}
+
+.day a {
+  display: block;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: #e5e7eb;
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 4px;
+}
+
+.day a:hover {
+  background: #1e293b;
+}
+
+.solver-form {
+  max-width: 800px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.solver-form textarea {
+  width: 100%;
+  height: 250px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  background-color: #020617;
+  color: #e5e7eb;
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.solver-form textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 5px #38bdf8;
+}
+
+.solver-form button {
+  margin-top: 12px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e5e7eb;
+  background-color: #38bdf8;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.solver-form button:hover {
+  background-color: #0ea5e9;
+  transform: translateY(-1px);
+}
+
+.solver-form button:active {
+  transform: translateY(0);
+}
+
+.result {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+}
+
+.result h2 {
+    margin-top: 0;
+    color: #7dd3fc;
+}
+
+.result pre {
+    margin: 0;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #e5e7eb;
+}
+
+.day a.finished {
+  background-color: #16a34a; /* green background for completed */
+  border-color: #15803d;     /* slightly darker border */
+  color: #f0fdf4;            /* light text for contrast */
+}
+
+.day a.finished:hover {
+  background-color: #15803d; /* darken on hover */
+}
