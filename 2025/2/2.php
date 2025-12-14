@@ -22,14 +22,8 @@ function invalid($num)
         }
 
         if ($ok)
-        {
-            // echo $num . " " . $part . "<br/>";
             return true;
-        }
-
     }
-
-    // echo $str . " " . $min_freq . "<br/>";
     return false;
 }
 
