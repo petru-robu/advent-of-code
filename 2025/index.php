@@ -25,38 +25,38 @@
 
       <div class="day">
         <h2>Day 3</h2>
-        <a href="/problem.php?problem=3&part=1">Part 1</a>
-        <a href="/problem.php?problem=3&part=2">Part 2</a>
+        <a href="/problem.php?problem=3&part=1"  class="finished">Part 1</a>
+        <a href="/problem.php?problem=3&part=2"  class="finished">Part 2</a>
       </div>
 
       <div class="day">
         <h2>Day 4</h2>
-        <a href="/problem.php?problem=4&part=1">Part 1</a>
-        <a href="/problem.php?problem=4&part=2">Part 2</a>
+        <a href="/problem.php?problem=4&part=1" class="finished">Part 1</a>
+        <a href="/problem.php?problem=4&part=2" class="finished">Part 2</a>
       </div>
 
       <div class="day">
         <h2>Day 5</h2>
-        <a href="/problem.php?problem=5&part=1">Part 1</a>
-        <a href="/problem.php?problem=5&part=2">Part 2</a>
+        <a href="/problem.php?problem=5&part=1" class="finished">Part 1</a>
+        <a href="/problem.php?problem=5&part=2" class="finished">Part 2</a>
       </div>
 
       <div class="day">
         <h2>Day 6</h2>
-        <a href="/problem.php?problem=6&part=1">Part 1</a>
-        <a href="/problem.php?problem=6&part=2">Part 2</a>
+        <a href="/problem.php?problem=6&part=1" class="finished">Part 1</a>
+        <a href="/problem.php?problem=6&part=2" class="finished">Part 2</a>
       </div>
 
       <div class="day">
         <h2>Day 7</h2>
-        <a href="/problem.php?problem=7&part=1">Part 1</a>
-        <a href="/problem.php?problem=7&part=2">Part 2</a>
+        <a href="/problem.php?problem=7&part=1" class="finished">Part 1</a>
+        <a href="/problem.php?problem=7&part=2" class="finished">Part 2</a>
       </div>
 
       <div class="day">
         <h2>Day 8</h2>
-        <a href="/problem.php?problem=8&part=1">Part 1</a>
-        <a href="/problem.php?problem=8&part=2">Part 2</a>
+        <a href="/problem.php?problem=8&part=1" class="finished">Part 1</a>
+        <a href="/problem.php?problem=8&part=2" class="finished">Part 2</a>
       </div>
 
       <div class="day">
