@@ -1,6 +1,6 @@
 # Repository for advent of code problems
 ## 2025
-Solved: **?/25** problems
+Solved: **8/12** problems
 Language: php
 
 To view the website and eventually test my solutions with your input data, do the following:
